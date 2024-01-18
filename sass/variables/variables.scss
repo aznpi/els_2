@@ -1,0 +1,17 @@
+:root{
+    --els-orange:#{rgb(245, 130, 32)};
+    --els-blue:#{rgb(0,174,239)};
+    --els-yellow:#{rgb(255,199,42)};
+    --els-green:#{rgb(74,173,77)};
+    --els-red:#{rgb(237,25,68)};
+    --els-purple:#{rgb(134,94,156)};
+    --els-black:#{rgba(109,110,113,.7)};
+    --els-black-2:#{rgba(230,231,232,.1)};
+    --els-dark-grey:#{rgb(53,53,56)};
+    --width: 10vw;
+    --full-width: 10vw;
+    --angle: -4.3deg;
+    --magic-number: 0.1;
+    --skew-padding: calc(var(--width) * var(--magic-number));
+    --clip-padding: calc(var(--full-width) * var(--magic-number));
+}
