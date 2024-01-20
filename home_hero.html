@@ -536,6 +536,90 @@
         }
       </style>
     </section>
+    <section class="section-normal section-testimonial padding-top-extra">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="bold">
+              What Our Students<br>
+              <span style="color:#FF8B35;">Say About Us</span>
+            </h2>
+          </div>
+        </div>
+        <div class="row testimonial-row">
+          <div class="col-md-12">
+            <div class="bg-image" style="background-image: url(/images/background/bg_multi_polygon.png);width: 787px;height:559px;"></div>
+            <div class="testimonial-container">
+              <div class="testimonial-slider">
+                <div class="testimonial-slide">
+                  <div class="col-md-4 image-container">
+                    <img src="/images/background/img_boy.jpg" class="img-fluid">
+                  </div>
+                  <div class="quote-container col-md-8">
+                    <blockquote>
+                      <div class="quote">
+                        <p class="bold">I absolutely loved my experience at ELS Chicago! </p>
+                        <p>The teachers were incredibly professional and dedicated, making learning enjoyable and effective. The university campus facilities were amazing, providing a conducive environment for both studying and socializing. I highly recommend ELS Chicago for anyone looking for top-notch education and a fantastic campus experience.</p>
+                      </div>
+                      <div class="author">
+                        <span class="bold">Leon Santillan</span>,  Cali - Colombia <span class="bold" style="color: #FF8B35;">/ ELS Chicago Alumni</span> 
+                      </div>
+                    </blockquote>
+                  </div>
+                </div>
+                <div class="testimonial-slide">
+                  <div class="col-md-4 image-container">
+                    <img src="/images/background/img_girl.jpg" class="img-fluid">
+                  </div>
+                  <div class="quote-container col-md-8">
+                    <blockquote>
+                      <div class="quote">
+                        <p class="bold">I absolutely loved my experience at ELS Chicago! </p>
+                        <p>The teachers were incredibly professional and dedicated, making learning enjoyable and effective. The university campus facilities were amazing, providing a conducive environment for both studying and socializing. I highly recommend ELS Chicago for anyone looking for top-notch education and a fantastic campus experience.</p>
+                      </div>
+                      <div class="author">
+                        <span class="bold">Leon Santillan</span>,  Cali - Colombia <span class="bold" style="color: #FF8B35;">/ ELS Chicago Alumni</span> 
+                      </div>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-normal section-2-column-image-slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 right">
+            <h2>Study in <span class="bold" style="color: #FF8B35;">Canada or Australia</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+           <div class="bg-polygon">
+              <div class="image-slider polygon-image-overlay">
+                <div>
+                  <img src="https://www.ilsc.com/hubfs/Website/Destinations/Canada/Stunning-Landscapes-2.jpg" class="img-fluid">
+                </div>
+                <div>
+                  <img src="https://www.ilsc.com/hubfs/img_australia_view.jpg" class="img-fluid">
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="col-md-5">
+            <img src="/images/logos/logo-language-gs.png" class="img-fluid" style="margin:100px 0;">
+            <p>Want to go beyond the US? You can now learn English in Canada and Australia with our partner school, ILSC. Whether you’re dreaming of studying and working by the beach, or looking for high energy adventures in stunning Canadian landscapes – we have a study abroad option to take you further.
+            </p>
+            <div class="btn-container center" style="margin:100px 0;">
+              <a href="" class="btn btn-orange">LEARN MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
      <!-- end body scripts-->
      <script src="https://www.ilsc.com/hs-fs/hub/5020112/hub_generated/template_assets/31199499370/1592940629359/ILSC_Website/template-resources/javascript/external/slick/slick-min.min.js"></script>
         
@@ -548,6 +632,22 @@
      <script defer type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
      <script defer type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
      <script>
+      $('.section-2-column-image-slider .image-slider').slick({
+        infinite: false,
+        arrows: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        nextArrow:'<div class="slick-next"><i class="fas fa-angle-double-right"></i></div>',
+        prevArrow:'<div class="slick-prev"><i class="fas fa-angle-double-left"></i></div>'
+      });
+       $('.testimonial-slider').slick({
+        infinite: false,
+        arrows: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        nextArrow:'<div class="slick-next"><i class="fas fa-chevron-right"></i></div>',
+        prevArrow:'<div class="slick-prev"><i class="fas fa-chevron-left"></i></div>'
+      });
       $('.logo-slider').slick({
         infinite: false,
         slidesToShow: 4,
@@ -563,10 +663,10 @@
             }
           },
           {
-            breakpoint: 600,
+            breakpoint: 900,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2
+              slidesToShow: 1,
+              slidesToScroll: 1
             }
           },
           {
@@ -596,10 +696,10 @@
             }
           },
           {
-            breakpoint: 600,
+            breakpoint: 900,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2
+              slidesToShow: 1,
+              slidesToScroll: 1
             }
           },
           {
