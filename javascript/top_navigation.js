@@ -3,13 +3,10 @@ $(function() {
 	//Megamenu	
   'use strict';
   /*Activate default tab contents*/
+  var $magicLine = $('#magic-line');
   var leftPos, newWidth, $magicLine;
 
-  $('.nav-bar-items').append("<div id='magic-line'></div>");
-  $magicLine = $('#magic-line');
-  
-
-  $('.navbar-nav li.nav-item a.nav-link').click(function() {
+  $('.navbar-nav li.nav-item a.nav-link:not(.btn-download)').click(function() {
     var $this = $(this);
     $this.parent().addClass('active').siblings().removeClass('active');
     $magicLine
@@ -19,13 +16,17 @@ $(function() {
  
   });
 
+
   /*Magicline hover animation*/
-  $('.navbar-nav li.nav-item').find('a.nav-link').mouseenter(function() {
-	  
+  $('.navbar-nav li.nav-item').find('a.nav-link:not(.btn-download)').mouseenter(function() {
+
+    let parentElement = $(this).parents().eq(2),
+     $magicLineTarget = $('#magic-line',parentElement);
+
     leftPos = $(this).position().left;
     newWidth = $(this).parent().width() - 15;
     
-    $magicLine.css({
+    $magicLineTarget.css({
       "left": leftPos,
       "width": newWidth
     }).addClass('magic-active');
@@ -33,21 +34,27 @@ $(function() {
 
     
   }).mouseleave(function() {
+
+    let parentElement = $(this).parents().eq(2),
+     $magicLineTarget = $('#magic-line',parentElement);
 	  
-    $magicLine.css({
+    $magicLineTarget.css({
       "left": $magicLine.data('origLeft'),
       "width": $magicLine.data('origWidth') -15
     });
     $('.dropdown').on('hidden.bs.dropdown', function() {
-		$magicLine.removeClass('magic-active');
+		$magicLineTarget.removeClass('magic-active');
 	});
     $(this).parent().parent().removeClass('menu-hide');
   });
   
   $('.navbar-nav li.nav-item').mouseleave(function() {
+
+    let parentElement = $(this).parents().eq(1),
+     $magicLineTarget = $('#magic-line',parentElement);
 	 
 	  if(!$('ul.navbar-nav').hasClass('menu-show')){
-		$magicLine.removeClass('magic-active');
+		$magicLineTarget.removeClass('magic-active');
 	 }
 		 
   });
@@ -55,14 +62,19 @@ $(function() {
   
   
   $('.top-nav .navbar-nav .dropdown').on('hidden.bs.dropdown', function() {
+    let parentElement = $(this).parents().eq(1),
+    $magicLineTarget = $('#magic-line',parentElement);
 	  	$('ul.navbar-nav').addClass('menu-hide');
  	  	$('ul.navbar-nav').removeClass('menu-show');
-		$magicLine.removeClass('magic-active');
+       $magicLineTarget.removeClass('magic-active');
 	});
   $('.top-nav .navbar-nav .dropdown').on('shown.bs.dropdown', function() {
+    let parentElement = $(this).parents().eq(1),
+    $magicLineTarget = $('#magic-line',parentElement);
+  
 	  	$('ul.navbar-nav').addClass('menu-show');
 	  	$('ul.navbar-nav').removeClass('menu-hide');
-		$magicLine.addClass('magic-active');
+      $magicLineTarget.addClass('magic-active');
 	});
   
   //StickyNav
@@ -96,9 +108,9 @@ $(function() {
   
  
     $('.top-nav .nav-bar-items.navbar-collapse').on('show.bs.collapse', function () {
-      $('.top-nav .navbar-brand').addClass("mobile-show");
+      $('.top-nav .navbar-brand.mobile-brand').addClass("mobile-show");
     }).on('hide.bs.collapse', function () {
-      $('.top-nav .navbar-brand').removeClass("mobile-show");
+      $('.top-nav .navbar-brand,mobile-brand').removeClass("mobile-show");
     });
 
   

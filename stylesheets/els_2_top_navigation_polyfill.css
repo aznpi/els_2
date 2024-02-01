@@ -1,0 +1,8 @@
+/* line 4, ../sass/els_2_top_navigation_polyfill.scss */
+header.top-nav .navbar .container {
+  max-width: unset;
+}
+/* line 9, ../sass/els_2_top_navigation_polyfill.scss */
+header.top-nav .navbar a.navbar-brand img {
+  width: 109px;
+}

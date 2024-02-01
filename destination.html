@@ -34,18 +34,370 @@
     <link rel="stylesheet" href="/stylesheets/top_navigation.css">
   </head>
   <body>
-    <header>
-      <div class="cta-tool-box">
-        <ul>
-          <li class="tool-contact" data-target="/contact.html"><img src="/images/icons/tool-contact.png" /><span>CONTACT US</span></li>
-          <li class="tool-apply" data-target="/appy-now.html"><img src="/images/icons/tool-apply.png" /><span>APPLY NOW</span></li>
-          <li class="tool-quote" data-target="/quote.html"><img src="/images/icons/tool-quote.png" /><span>GET A QUOTE</span></li>
-          <li class="tool-log-in" data-target="/log-in.html"><img src="/images/icons/tool-log-in.png" /><span>LOG IN</span></li>
-        </ul>
-      </div>
-    </header>
+    <header class="top-nav fixed-top">
+        <nav id="landing-nav-bar" class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+      
+            <div class="nav-bar-items collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="nav-sub">
+                <div class="btn-download">
+                  <a class="nav-link" href="" target="_blank">
+                    <div><div class="title">DOWNLOAD</div><div class="text">Digital Brochure</div></div>
+                    <div class="icon-download"></div>
+                  </a>
+                </div>
+                <div class="sub-link-container">
+                  <ul class="navbar-nav sub-nav">       
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.els.edu/admissions/current-students">
+                        LOGIN
+                      </a>
+                    </li>
+                    <li class="nav-item dropdown search">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-search"></i>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                        <div class="navbar-menu-content container search-content">
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="form-container">
+                                <h4>SEARCH</h4>
+                                <form action="/search-results" id="form1">
+                                    <input type="hidden" name="type" value="SITE_PAGE">
+                                    <input type="hidden" name="type" value="BLOG_POST">
+                                    <input type="hidden" name="type" value="LISTING_PAGE">
+                                    <input type="hidden" name="pathPrefix" value="/">
+                                  
+                                    
+                                        <input type="hidden" name="language" value="en">
+                                    
+                                    
+                                  <div class="form-group">
+                                    <input class="form-control form-control-lg" type="text" placeholder="TYPE TO SEARCH" id="term" name="term">
+                                    <div class="input-group-append btn-search">
+                                      <button form="form1" type="submit" class="btn btn-primary btn-clear"><i class="fas fa-times"></i></button>
+                                    </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    
+                    <li class="nav-item dropdown language-dropdown">
+  
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="lang-code">EN</span>
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="lng-ar lng-translate">
+                          <a href="/ar/">AR</a>
+                        </li>
+                        <li class="lng-zh lng-translate">
+                          <a href="/zh/">ZH</a>
+                        </li>
+                        <li class="lng-zh-tw lng-translate">
+                          <a href="/zh-tw/">ZH-TW</a>
+                        </li>
+                        <li class="lng-ja lng-translate">
+                          <a href="/ja/">JA</a>
+                        </li>
+                        <li class="lng-ko lng-translate">
+                          <a href="/ko/">KO</a>
+                        </li>
+                        <li class="lng-pt-br lng-translate">
+                          <a href="/pt-br/">PT-BR</a>
+                        </li>
+                        <li class="lng-es lng-translate">
+                          <a href="/es/">ES</a>
+                        </li>
+                        <li class="lng-vi lng-translate">
+                          <a href="/vi/">VI</a>
+                        </li>
+                        <li class="lng-fr lng-translate">
+                          <a href="/fr/">FR</a>
+                        </li>
+                        <li class="lng-en lng-translate" style="display: none;">
+                          <a href="/">EN</a>
+                        </li>
+                      </ul>                      
+                    </li>
+                    
+                  </ul>
+                  <div id="magic-line"></div>
+                </div>
+              </div>
+              <div class="main-nav">
+                <a class="navbar-brand" href=""><img src="https://www.els.edu/hubfs/Landing%20Pages/ELS-ILSC-Vancouver-Integration/els-logo.svg" alt="ELS_Horizontal_Logo_Colour" loading="lazy"></a>
+                <div class="nav-main">
+                  <ul class="navbar-nav mr-auto">
+          
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="#" id="navbarDropdown1" role="button" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown">
+                        Destinations
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                        <div class="navbar-menu-content container">
+                          <div class="sub-menu-title">
+                            <h4>USA</h4>
+                          </div>
+                         
+                          <div class="row">
+                            
+                            <div class="link-container col-md-4">
+                              <div class="menu-image-box-container">
+                                <div class="polygon-white"></div>
+                                <div class="polygon-color" style="background-color: #FF8B35;"></div>
+                                <div class="image-container"><img src="/images/background/usa-arizona-colorado-river-horseshoe-bend-youn-2022-12-16-22-36-54-utc.jpg" class="img-fluid"></div>
+                              </div>
+                            </div>
+                            <div class="link-container col-md-4">
+                              <ul>
+                                <li><a href="">Chicago, Illinois</a></li>
+                                <li><a href="">Cincinnati, Ohio</a></li>
+                                <li><a href="">Cleveland, Ohio</a></li>
+                                <li><a href="">Houston, Texas</a></li>
+                                <li><a href="">Los Angeles County, California</a></li>
+                                <li><a href="">Melbourne, Florida</a></li>
+                              </ul>
+                              <div class="vertical-divider"></div>
+                            </div>
+                            <div class="link-container col-md-4">
+                              <ul>
+                                <li><a href="">Nashville, Tennessee</a></li>
+                                <li><a href="">New York, Manhattan</a></li>
+                                <li><a href="">Philadelphia, Pennsylvania</a></li>
+                                <li><a href="">San Francisco, North Bay, California</a></li>
+                                <li><a href="">St. Paul, Minnesota</a></li>
+                                <li><a href="">St. Petersburg, Florida</a></li>
+                              </ul>
+      
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        English Programs
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <div class="navbar-menu-content container">
+                          <div class="row">
+                            
+                            <div class="link-container col-md-4">
+                              <div class="column-box">
+                                <div class="sub-menu-title">
+                                  <h4>Most Popular Programs</h4>
+                                </div>
+                                <div class="menu-image-box-container">
+                                  <div class="polygon-white"></div>
+                                  <div class="polygon-color" style="background-color: #FF8B35;"></div>
+                                  <div class="image-container"><img src="/images/background/college-students-studying-in-campus-2021-08-29-00-51-52-utc.jpg" class="img-fluid"></div>
+                                </div>
+                                <ul>
+                                  <li><a href="">Intensive English</a></li>
+                                  <li><a href="">Semi Intensive English</a></li>
+                                  <li><a href="">American Explorer</a></li>
+                                  
+                                </ul>
+                              </div>
+                              <div class="vertical-divider"></div>
+                            </div>
+                            <div class="link-container col-md-4">
+                              <div class="column-box">
+                                <div class="sub-menu-title">
+                                  <h4>Specialty Programs</h4>
+                                </div>
+                                <div class="menu-image-box-container">
+                                  <div class="polygon-white"></div>
+                                  <div class="polygon-color" style="background-color: #4AAD4D;"></div>
+                                  <div class="image-container"><img src="/images/background/university-campus-library-2023-07-22-01-18-44-utc.jpg" class="img-fluid"></div>
+                                </div>
+                                <ul>
+                                  <li><a href="">Youth Programs</a></li>
+                                  <li><a href="">Online Programs</a></li>
+                                  <li><a href="">English for Executives</a></li>
+                                  <li><a href="">Super-Intensive English</a></li>
+                                </ul>
+                              </div>
+                              <div class="vertical-divider"></div>
+                            </div>
+                            <div class="link-container col-md-4">
+                              <div class="column-box">
+                                <div class="sub-menu-title">
+                                  <h4>Services</h4>
+                                </div>
+                                <div class="menu-image-box-container">
+                                  <div class="polygon-white"></div>
+                                  <div class="polygon-color" style="background-color: #865E9C;"></div>
+                                  <div class="image-container"><img src="/images/background/young-woman-learning-while-attending-adult-educati-2023-11-27-04-50-31-utc.jpg" class="img-fluid"></div>
+                                </div>
+                                <ul>
+                                  <li><a href="">IELTS Testing</a></li>
+                                  <li><a href="">ELS Academic Placement</a></li>
+                                  
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        University Programs
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                        <div class="navbar-menu-content container">
+                          <div class="sub-menu-title">
+                            <h4>University Programs</h4>
+                          </div>
+                         
+                          <div class="row">
+                            
+                            <div class="link-container col-md-4">
+                              <div class="menu-image-box-container">
+                                <div class="polygon-white"></div>
+                                <div class="polygon-color" style="background-color: #FF8B35;"></div>
+                                <div class="image-container"><img src="/images/background/girls-watching-online-lesson-on-tablet-pc-2023-05-24-22-38-24-utc.jpg" class="img-fluid"></div>
+                              </div>
+                            </div>
+                            <div class="link-container col-md-4">
+                              <ul>
+                                <li><a href="">Conditional Admissions</a></li>
+                                <li><a href="">ELS 2+2 Pathway Program</a></li>
+                                <li><a href="">College Year Program</a></li>
+                                
+                              </ul>
+                              
+                            </div>
+                            
+                            
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        How to Apply
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                        <div class="navbar-menu-content container">
+                          <div class="row j-center">
+                            
+                            <div class="link-container col-md-4">
+                              <div class="column-box">
+                                <div class="menu-image-box-container">
+                                  <div class="polygon-white"></div>
+                                  <div class="polygon-color" style="background-color: #FF8B35;"></div>
+                                  <div class="image-container"><img src="/images/background/happy-young-student-chat-with-each-other-after-cla-2023-11-07-03-28-03-utc.jpg" class="img-fluid"></div>
+                                </div>
+                                <div class="btn-container center">
+                                  <a href="" class="btn btn-orange">HOW TO APPLY</a>
+                                </div>
+                              </div>
+                              <div class="vertical-divider"></div>
+                            </div>
+                            <div class="link-container col-md-4">
+                              <div class="column-box">
+                                
+                                <div class="menu-image-box-container">
+                                  <div class="polygon-white"></div>
+                                  <div class="polygon-color" style="background-color: #4AAD4D;"></div>
+                                  <div class="image-container"><img src="/images/background/happy-international-students-taking-selfie-in-univ-2022-12-16-07-34-20-utc.jpg" class="img-fluid"></div>
+                                </div>
+                                <ul>
+                                  <li><a href="">Tuition &amp; Fees</a></li>
+                                  <li><a href="">Student Visa Information</a></li>
+                                  <li><a href="">Terms &amp; Conditions</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Arrival Information
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                        <div class="navbar-menu-content container">
+                          <div class="row j-center">
+                            
+                            <div class="link-container col-md-4">
+                              <div class="column-box">
+                                <div class="menu-image-box-container">
+                                  <div class="polygon-white"></div>
+                                  <div class="polygon-color" style="background-color: #FF8B35;"></div>
+                                  <div class="image-container"><img src="/images/background/young-woman-excited-and-waiting-her-trip-at-the-ai-2022-11-10-17-55-12-utc.jpg" class="img-fluid"></div>
+                                  
+                                </div>
+                                <ul>
+                                  <li><a href="">Arrival Information</a></li>
+                                  
+                                </ul>
+                              </div>
+                              <div class="vertical-divider"></div>
+                            </div>
+                            <div class="link-container col-md-4">
+                              <div class="column-box">
+                                
+                                <div class="menu-image-box-container">
+                                  <div class="polygon-white"></div>
+                                  <div class="polygon-color" style="background-color: #4AAD4D;"></div>
+                                  <div class="image-container"><img src="/images/background/family-discussing-student-loan-2021-08-30-02-27-20-utc.jpg" class="img-fluid"></div>
+                                </div>
+                                <ul>
+                                  <li><a href="">ELS Policies</a></li>
+                                 
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+  
+                  </ul>
+                  <div id="magic-line"></div>
+                </div>
+              </div>
+               
+              <div class="header-cta-container">
+                
+                <div class="phone-text text-center"><i class="fas fa-phone"></i>&nbsp;&nbsp;Call us: 1-855-560-0700</div>
+                      
+                <a href="https://www.ilsc.com/language-schools/contact-ilsc" class="btn btn-primary btn-orange">CONTACT US</a>
+                
+                <a href="#" data-bs-toggle="modal" data-target="#quote-modal" class="btn btn-outline-primary btn-pathway-blue-outline">GET A QUOTE</a>
+                      
+                <a href="https://www.ilsc.com/language-schools/apply-now" class="btn btn-outline-primary btn-black-outline">APPLY NOW</a>
+              </div>
+      
+          </div>
+        </nav>
+        <div class="cta-tool-box">
+          <ul>
+            <li class="tool-contact" data-target="/contact.html"><img src="/images/icons/tool-contact.png" /><span>CONTACT US</span></li>
+            <li class="tool-apply" data-target="/appy-now.html"><img src="/images/icons/tool-apply.png" /><span>APPLY NOW</span></li>
+            <li class="tool-quote" data-target="/quote.html"><img src="/images/icons/tool-quote.png" /><span>GET A QUOTE</span></li>
+            <li class="tool-log-in" data-target="/log-in.html"><img src="/images/icons/tool-log-in.png" /><span>LOG IN</span></li>
+          </ul>
+        </div>
+      </header>
     
-    <section class="section-hero section-polygon bg-hero-image" style="background-color: #353538;height:700px;background-image:url('/images/background/bg_beautiful-woman-with-usa-flag-2021-09-24-03-55-20-utc.jpg');">
+    <section class="section-hero section-polygon bg-hero-image" style="background-color: #353538;background-image:url('/images/background/bg_beautiful-woman-with-usa-flag-2021-09-24-03-55-20-utc.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
@@ -557,6 +909,6 @@
        "></script>
        <script src="/javascript/main_function.js" type="text/javascript"></script>
        
-        <!-- <script src="/javascript/top_navigation.js" type="text/javascript"></script> -->
+        <script src="/javascript/top_navigation.js" type="text/javascript"></script>
   </body>
 </html>

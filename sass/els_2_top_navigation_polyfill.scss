@@ -1,0 +1,16 @@
+header{
+    &.top-nav{
+        .navbar{
+            .container{
+                max-width: unset;
+            }
+            a{
+                &.navbar-brand{
+                    img{
+                        width:109px;
+                    }
+                }
+            }
+        }
+    }
+}
