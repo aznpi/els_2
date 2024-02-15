@@ -158,7 +158,7 @@ header.top-nav.sticky {
 		}
 	}
   #magic-line{
-    background-color: var(--els-orange);
+    background-color: var(--els-orange) !important;
   }
 }
 header.top-nav {
@@ -220,7 +220,6 @@ header.top-nav {
               width: fit-content;
               text-align: center;
               position: absolute;
-              transform: translate(85vw, -120px);
 
               li{
                 &:hover{
@@ -272,7 +271,7 @@ header.top-nav {
             letter-spacing: 0.39px;
             }
             .icon-download{
-            background-image: url(/images/icons/icon_download.png);
+            background-image: url('https://www.els.edu/hubfs/ELS/Website%20v2/template-resources/images/icon/icon_download-min.png');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -420,6 +419,7 @@ header.top-nav {
 				border-radius: 0;
 				display: unset;
 				padding: 30px 0;
+				left:0;
 				top: 90%;
 				transition: none;
 				visibility: hidden;
@@ -926,7 +926,8 @@ header.top-nav.main-group {
 @media (max-width: 991.9px) {
 	header.top-nav.fixed-top {
 		padding: 0;
-    position: absolute;
+    position: fixed;
+    z-index: 99999;
 	}
 	header {
 		.header-cta-container {
@@ -973,7 +974,7 @@ header.top-nav.main-group {
 										display: none;
 									}
 								}
-								padding: 30px 5px 0px 30px !important;
+								padding: 0px 5px 0px 30px !important;
 								flex-basis: auto;
 							}
 							.button-row {

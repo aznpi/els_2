@@ -85,18 +85,23 @@ $(function() {
    	
    	// our function that decides weather the navigation bar should have "fixed" css position or not.
    	var stickyNav = function(){
-	    var scrollTop = $(window).scrollTop(); // our current vertical position from the top
+	    var scrollTop = $(window).scrollTop(),
+          windowWidth = $(window).width();
+          ; // our current vertical position from the top
 	         
 	    // if we've scrolled more than the navigation, change its position to fixed to stick to top,
 	    // otherwise change it back to relative
-	     if (scrollTop > stickyNavTop) { 
-	        $('.top-nav').addClass('sticky');
-	        $('.cta-flyout').addClass('show-fo');     
-	        
-	    } else {
-	        $('.top-nav').removeClass('sticky');
-	        $('.cta-flyout').removeClass('show-fo');
-	    }
+
+      if(windowWidth > 991){
+        if (scrollTop > stickyNavTop) { 
+            $('.top-nav').addClass('sticky');
+            $('.cta-flyout').addClass('show-fo');     
+            
+        } else {
+            $('.top-nav').removeClass('sticky');
+            $('.cta-flyout').removeClass('show-fo');
+        }
+      }
 	};
 
   
@@ -114,4 +119,30 @@ $(function() {
     });
 
   
+});
+
+
+const $dropdown = $(".top-nav .dropdown");
+const $dropdownToggle = $(".top-nav .dropdown-toggle");
+const $dropdownMenu = $(".top-nav .dropdown-menu");
+const showClass = "show";
+$(window).on("load resize", function() {
+  if (this.matchMedia("(min-width: 992px)").matches) {
+    $dropdown.hover(
+      function() {
+        const $this = $(this);
+        $this.addClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "true");
+        $this.find($dropdownMenu).addClass(showClass);
+      },
+      function() {
+        const $this = $(this);
+        $this.removeClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "false");
+        $this.find($dropdownMenu).removeClass(showClass);
+      }
+    );
+  } else {
+    $dropdown.off("mouseenter mouseleave");
+  }
 });
