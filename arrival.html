@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ELS Arrival</title>
+    <!--external css-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.ilsc.com/hs-fs/hub/5020112/hub_generated/template_assets/31199499324/1654624298826/ILSC_Website/template-resources/stylesheets/external/slick/slick.min.css">
+    <link rel="stylesheet" href="https://www.ilsc.com/hs-fs/hub/5020112/hub_generated/template_assets/31199499211/1654624448074/ILSC_Website/template-resources/stylesheets/external/slick/slick-theme.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    
+    <!--external js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css" integrity="sha512-ELV+xyi8IhEApPS/pSj66+Jiw+sOT1Mqkzlh8ExXihe4zfqbWkxPRi8wptXIO9g73FSlhmquFlUOuMSoXz5IRw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+        <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <!--els css-->    
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <link rel="stylesheet" href="/stylesheets/top_navigation.css">
+  </head>
+  <body>
+    <header class="top-nav fixed-top">
+        <nav id="landing-nav-bar" class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+      
+            <div class="nav-bar-items collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="nav-sub">
+                <div class="btn-download">
+                  <a class="nav-link" href="" target="_blank">
+                    <div><div class="title">DOWNLOAD</div><div class="text">Digital Brochure</div></div>
+                    <div class="icon-download"></div>
+                  </a>
+                </div>
+                <div class="sub-link-container">
+                  <ul class="navbar-nav sub-nav">       
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.els.edu/admissions/current-students">
+                        LOGIN
+                      </a>
+                    </li>
+                    <li class="nav-item dropdown search">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-search"></i>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                        <div class="navbar-menu-content container search-content">
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="form-container">
+                                <h4>SEARCH</h4>
+                                <form action="/search-results" id="form1">
+                                    <input type="hidden" name="type" value="SITE_PAGE">
+                                    <input type="hidden" name="type" value="BLOG_POST">
+                                    <input type="hidden" name="type" value="LISTING_PAGE">
+                                    <input type="hidden" name="pathPrefix" value="/">
+                                  
+                                    
+                                        <input type="hidden" name="language" value="en">
+                                    
+                                    
+                                  <div class="form-group">
+                                    <input class="form-control form-control-lg" type="text" placeholder="TYPE TO SEARCH" id="term" name="term">
+                                    <div class="input-group-append btn-search">
+                                      <button form="form1" type="submit" class="btn btn-primary btn-clear"><i class="fas fa-times"></i></button>
+                                    </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    
+                    <li class="nav-item dropdown language-dropdown">
+  
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="lang-code">EN</span>
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="lng-ar lng-translate">
+                          <a href="/ar/">AR</a>
+                        </li>
+                        <li class="lng-zh lng-translate">
+                          <a href="/zh/">ZH</a>
+                        </li>
+                        <li class="lng-zh-tw lng-translate">
+                          <a href="/zh-tw/">ZH-TW</a>
+                        </li>
+                        <li class="lng-ja lng-translate">
+                          <a href="/ja/">JA</a>
+                        </li>
+                        <li class="lng-ko lng-translate">
+                          <a href="/ko/">KO</a>
+                        </li>
+                        <li class="lng-pt-br lng-translate">
+                          <a href="/pt-br/">PT-BR</a>
+                        </li>
+                        <li class="lng-es lng-translate">
+                          <a href="/es/">ES</a>
+                        </li>
+                        <li class="lng-vi lng-translate">
+                          <a href="/vi/">VI</a>
+                        </li>
+                        <li class="lng-fr lng-translate">
+                          <a href="/fr/">FR</a>
+                        </li>
+                        <li class="lng-en lng-translate" style="display: none;">
+                          <a href="/">EN</a>
+                        </li>
+                      </ul>                      
+                    </li>
+                    
+                  </ul>
+                  <div id="magic-line"></div>
+                </div>
+              </div>
+              <div class="main-nav">
+                <a class="navbar-brand" href=""><img src="https://www.els.edu/hubfs/Landing%20Pages/ELS-ILSC-Vancouver-Integration/els-logo.svg" alt="ELS_Horizontal_Logo_Colour" loading="lazy"></a>
+                <div class="nav-main">
+                  <ul class="navbar-nav mr-auto">
+          
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="#" id="navbarDropdown1" role="button" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown">
+                        Destinations
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                        <div class="navbar-menu-content container">
+                          <div class="sub-menu-title">
+                            <h4>USA</h4>
+                          </div>
+                         
+                          <div class="row">
+                            
+                            <div class="link-container col-md-4">
+                              <div class="menu-image-box-container">
+                                <div class="polygon-white"></div>
+                                <div class="polygon-color" style="background-color: #FF8B35;"></div>
+                                <div class="image-container"><img src="/images/background/usa-arizona-colorado-river-horseshoe-bend-youn-2022-12-16-22-36-54-utc.jpg" class="img-fluid"></div>
+                              </div>
+                            </div>
+                            <div class="link-container col-md-4">
+                              <ul>
+                                <li><a href="">Chicago, Illinois</a></li>
+                                <li><a href="">Cincinnati, Ohio</a></li>
+                                <li><a href="">Cleveland, Ohio</a></li>
+                                <li><a href="">Houston, Texas</a></li>
+                                <li><a href="">Los Angeles County, California</a></li>
+                                <li><a href="">Melbourne, Florida</a></li>
+                              </ul>
+                              <div class="vertical-divider"></div>
+                            </div>
+                            <div class="link-container col-md-4">
+                              <ul>
+                                <li><a href="">Nashville, Tennessee</a></li>
+                                <li><a href="">New York, Manhattan</a></li>
+                                <li><a href="">Philadelphia, Pennsylvania</a></li>
+                                <li><a href="">San Francisco, North Bay, California</a></li>
+                                <li><a href="">St. Paul, Minnesota</a></li>
+                                <li><a href="">St. Petersburg, Florida</a></li>
+                              </ul>
+      
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        English Programs
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <div class="navbar-menu-content container">
+                          <div class="row">
+                            
+                            <div class="link-container col-md-4">
+                              <div class="column-box">
+                                <div class="sub-menu-title">
+                                  <h4>Most Popular Programs</h4>
+                                </div>
+                                <div class="menu-image-box-container">
+                                  <div class="polygon-white"></div>
+                                  <div class="polygon-color" style="background-color: #FF8B35;"></div>
+                                  <div class="image-container"><img src="/images/background/college-students-studying-in-campus-2021-08-29-00-51-52-utc.jpg" class="img-fluid"></div>
+                                </div>
+                                <ul>
+                                  <li><a href="">Intensive English</a></li>
+                                  <li><a href="">Semi Intensive English</a></li>
+                                  <li><a href="">American Explorer</a></li>
+                                  
+                                </ul>
+                              </div>
+                              <div class="vertical-divider"></div>
+                            </div>
+                            <div class="link-container col-md-4">
+                              <div class="column-box">
+                                <div class="sub-menu-title">
+                                  <h4>Specialty Programs</h4>
+                                </div>
+                                <div class="menu-image-box-container">
+                                  <div class="polygon-white"></div>
+                                  <div class="polygon-color" style="background-color: #4AAD4D;"></div>
+                                  <div class="image-container"><img src="/images/background/university-campus-library-2023-07-22-01-18-44-utc.jpg" class="img-fluid"></div>
+                                </div>
+                                <ul>
+                                  <li><a href="">Youth Programs</a></li>
+                                  <li><a href="">Online Programs</a></li>
+                                  <li><a href="">English for Executives</a></li>
+                                  <li><a href="">Super-Intensive English</a></li>
+                                </ul>
+                              </div>
+                              <div class="vertical-divider"></div>
+                            </div>
+                            <div class="link-container col-md-4">
+                              <div class="column-box">
+                                <div class="sub-menu-title">
+                                  <h4>Services</h4>
+                                </div>
+                                <div class="menu-image-box-container">
+                                  <div class="polygon-white"></div>
+                                  <div class="polygon-color" style="background-color: #865E9C;"></div>
+                                  <div class="image-container"><img src="/images/background/young-woman-learning-while-attending-adult-educati-2023-11-27-04-50-31-utc.jpg" class="img-fluid"></div>
+                                </div>
+                                <ul>
+                                  <li><a href="">IELTS Testing</a></li>
+                                  <li><a href="">ELS Academic Placement</a></li>
+                                  
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        University Programs
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                        <div class="navbar-menu-content container">
+                          <div class="sub-menu-title">
+                            <h4>University Programs</h4>
+                          </div>
+                         
+                          <div class="row">
+                            
+                            <div class="link-container col-md-4">
+                              <div class="menu-image-box-container">
+                                <div class="polygon-white"></div>
+                                <div class="polygon-color" style="background-color: #FF8B35;"></div>
+                                <div class="image-container"><img src="/images/background/girls-watching-online-lesson-on-tablet-pc-2023-05-24-22-38-24-utc.jpg" class="img-fluid"></div>
+                              </div>
+                            </div>
+                            <div class="link-container col-md-4">
+                              <ul>
+                                <li><a href="">Conditional Admissions</a></li>
+                                <li><a href="">ELS 2+2 Pathway Program</a></li>
+                                <li><a href="">College Year Program</a></li>
+                                
+                              </ul>
+                              
+                            </div>
+                            
+                            
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        How to Apply
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                        <div class="navbar-menu-content container">
+                          <div class="row j-center">
+                            
+                            <div class="link-container col-md-4">
+                              <div class="column-box">
+                                <div class="menu-image-box-container">
+                                  <div class="polygon-white"></div>
+                                  <div class="polygon-color" style="background-color: #FF8B35;"></div>
+                                  <div class="image-container"><img src="/images/background/happy-young-student-chat-with-each-other-after-cla-2023-11-07-03-28-03-utc.jpg" class="img-fluid"></div>
+                                </div>
+                                <div class="btn-container center">
+                                  <a href="" class="btn btn-orange">HOW TO APPLY</a>
+                                </div>
+                              </div>
+                              <div class="vertical-divider"></div>
+                            </div>
+                            <div class="link-container col-md-4">
+                              <div class="column-box">
+                                
+                                <div class="menu-image-box-container">
+                                  <div class="polygon-white"></div>
+                                  <div class="polygon-color" style="background-color: #4AAD4D;"></div>
+                                  <div class="image-container"><img src="/images/background/happy-international-students-taking-selfie-in-univ-2022-12-16-07-34-20-utc.jpg" class="img-fluid"></div>
+                                </div>
+                                <ul>
+                                  <li><a href="">Tuition &amp; Fees</a></li>
+                                  <li><a href="">Student Visa Information</a></li>
+                                  <li><a href="">Terms &amp; Conditions</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Arrival Information
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                        <div class="navbar-menu-content container">
+                          <div class="row j-center">
+                            
+                            <div class="link-container col-md-4">
+                              <div class="column-box">
+                                <div class="menu-image-box-container">
+                                  <div class="polygon-white"></div>
+                                  <div class="polygon-color" style="background-color: #FF8B35;"></div>
+                                  <div class="image-container"><img src="/images/background/young-woman-excited-and-waiting-her-trip-at-the-ai-2022-11-10-17-55-12-utc.jpg" class="img-fluid"></div>
+                                  
+                                </div>
+                                <ul>
+                                  <li><a href="">Arrival Information</a></li>
+                                  
+                                </ul>
+                              </div>
+                              <div class="vertical-divider"></div>
+                            </div>
+                            <div class="link-container col-md-4">
+                              <div class="column-box">
+                                
+                                <div class="menu-image-box-container">
+                                  <div class="polygon-white"></div>
+                                  <div class="polygon-color" style="background-color: #4AAD4D;"></div>
+                                  <div class="image-container"><img src="/images/background/family-discussing-student-loan-2021-08-30-02-27-20-utc.jpg" class="img-fluid"></div>
+                                </div>
+                                <ul>
+                                  <li><a href="">ELS Policies</a></li>
+                                 
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+  
+                  </ul>
+                  <div id="magic-line"></div>
+                </div>
+              </div>
+               
+              <div class="header-cta-container">
+                
+                <div class="phone-text text-center"><i class="fas fa-phone"></i>&nbsp;&nbsp;Call us: 1-855-560-0700</div>
+                      
+                <a href="https://www.ilsc.com/language-schools/contact-ilsc" class="btn btn-primary btn-orange">CONTACT US</a>
+                
+                <a href="#" data-bs-toggle="modal" data-target="#quote-modal" class="btn btn-outline-primary btn-pathway-blue-outline">GET A QUOTE</a>
+                      
+                <a href="https://www.ilsc.com/language-schools/apply-now" class="btn btn-outline-primary btn-black-outline">APPLY NOW</a>
+              </div>
+      
+          </div>
+        </nav>
+        <div class="cta-tool-box">
+          <ul>
+            <li class="tool-contact" data-target="/contact.html"><img src="/images/icons/tool-contact.png" /><span>CONTACT US</span></li>
+            <li class="tool-apply" data-target="/appy-now.html"><img src="/images/icons/tool-apply.png" /><span>APPLY NOW</span></li>
+            <li class="tool-quote" data-target="/quote.html"><img src="/images/icons/tool-quote.png" /><span>GET A QUOTE</span></li>
+            <li class="tool-log-in" data-target="/log-in.html"><img src="/images/icons/tool-log-in.png" /><span>LOG IN</span></li>
+          </ul>
+        </div>
+      </header>
+
+    
+    <section class="section-hero section-polygon bg-hero-image" style="background-color: #353538;background-image:url('/images/background/hero_arrival.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                  <div class="description">
+                    <h1>Arrival Information</h1>
+                    <h4>Get ready for the English learning adventure at ELS</h4>
+                  </div>
+                  <div class="tool-box">
+                   
+                  </div>
+                </div>
+                <div class="col-md-5 hero-image-container">
+                  <div class="hero-image">
+                  </div>
+                </div>
+            </div>
+            <div class="down-move">
+              <div class="txt"><span>EXPLORE</span></div>
+              <div class="arrow-down"></div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="ilscModal" tabindex="-1" aria-labelledby="ilscModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header" data-bs-theme="dark">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              
+              <div class="modal-body">
+                <div class="ratio ratio-16x9">
+                  <iframe src="" title="ELS English School" frameborder="0" allow="autoplay;" allowfullscreen></iframe>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="section-normal section-cta-banner section-bg-container section-price-banner section-polygon">
+      <div class="container table-container"> 
+        <div class="row row-price" style="background-color: #F3F3F4;;">
+          <div class="container-right-bg" style="background-color: #F3F3F4;;"></div>
+          <div class="col-md-2">
+            <div class="image-container image-absolute">
+              <img src="/images/icons/icon_arrival_happiness.png" class="img-fluid">
+            </div>
+          </div>  
+          <div class="col-md-10">
+            <div class="description-container text-dark">
+              <h4><span style="color: #FF8B35;">We're so excited that you'll be joining us in the USA at one of our ELS Centers!</span> We know that there is a lot to organize to ensure that you have a great English study experience. Below you'll find helpful information so that you know how to prepare and what to expect, before, during and after you arrive at ELS.</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-normal">
+      <div class="container"> 
+        <div class="row">
+          <div class="col-md-2">
+            <div class="image-container">
+              <img src="/images/icons/icon_plane.png" class="img-fluid">
+            </div>  
+          </div>
+          <div class="col-md-10">
+            <div class="description-container text-dark">
+              <h2 class="bold"><span style="color: #FF8B35;">Before You Leave Your Home Country</span></h2>
+              <div class="description">
+                <h5>Preparing for your departure is both exciting and overwhelming; we’re here to help if you have any questions. Here are some of the things to check off your list before you arrive:</h5>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-normal section-table">
+      <div class="container table-container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="title-container">
+              <div class="title">
+                <h5>Make sure you have all the right documentation</h5>
+              </div><div class="icon-container">
+                <img src="/images/icons/icon_checklist.png" class="img-fluid">
+              </div>
+            </div>
+            <div class="description-container">
+              <div class="description">
+                <p>Your visa, passport, Form I-20, and other important documents must be in a safe and accessible location. Keep them together in a folder and be sure to make extra printed and digital copies just in case.</p>
+                <p>You should also download and complete the following Important Forms that you will need to bring with you. (If you will be under 18 years old on your first day of class, your parent or guardian must complete and sign the forms for you.)</p>
+                <ul class="bullets orange-bullets">
+                  <li><a href="">ELS Student Code of Conduct Form</a></li>
+                  <li><a href="">ELS Student Code of Conduct Form</a></li>
+                  <li><a href="">ELS Student Code of Conduct Form</a></li>
+                  <li><a href="">ELS Student Code of Conduct Form</a></li>
+                  <li><a href="">ELS Student Code of Conduct Form</a></li>
+                  <li><a href="">ELS Student Code of Conduct Form</a></li>
+                  <li><a href="">ELS Student Code of Conduct Form</a></li>
+                  <li><a href="">ELS Student Code of Conduct Form</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="title-container">
+              <div class="title">
+                <h5>Make sure you have all the right documentation</h5>
+              </div><div class="icon-container">
+                <img src="/images/icons/icon_checklist.png" class="img-fluid">
+              </div>
+            </div>
+            <div class="description-container">
+              <div class="description">
+                <p>Your visa, passport, Form I-20, and other important documents must be in a safe and accessible location. Keep them together in a folder and be sure to make extra printed and digital copies just in case.</p>
+                <p>You should also download and complete the following Important Forms that you will need to bring with you. (If you will be under 18 years old on your first day of class, your parent or guardian must complete and sign the forms for you.)</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="title-container">
+              <div class="title">
+                <h5>Make sure you have all the right documentation</h5>
+              </div><div class="icon-container">
+                <img src="/images/icons/icon_checklist.png" class="img-fluid">
+              </div>
+            </div>
+            <div class="description-container">
+              <div class="description">
+                <p>Your visa, passport, Form I-20, and other important documents must be in a safe and accessible location. Keep them together in a folder and be sure to make extra printed and digital copies just in case.</p>
+                <p>You should also download and complete the following Important Forms that you will need to bring with you. (If you will be under 18 years old on your first day of class, your parent or guardian must complete and sign the forms for you.)</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="title-container">
+              <div class="title">
+                <h5>Make sure you have all the right documentation</h5>
+              </div><div class="icon-container">
+                <img src="/images/icons/icon_checklist.png" class="img-fluid">
+              </div>
+            </div>
+            <div class="description-container">
+              <div class="description">
+                <p>Your visa, passport, Form I-20, and other important documents must be in a safe and accessible location. Keep them together in a folder and be sure to make extra printed and digital copies just in case.</p>
+                <p>You should also download and complete the following Important Forms that you will need to bring with you. (If you will be under 18 years old on your first day of class, your parent or guardian must complete and sign the forms for you.)</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="title-container">
+              <div class="title">
+                <h5>Make sure you have all the right documentation</h5>
+              </div><div class="icon-container">
+                <img src="/images/icons/icon_checklist.png" class="img-fluid">
+              </div>
+            </div>
+            <div class="description-container">
+              <div class="description">
+                <p>Your visa, passport, Form I-20, and other important documents must be in a safe and accessible location. Keep them together in a folder and be sure to make extra printed and digital copies just in case.</p>
+                <p>You should also download and complete the following Important Forms that you will need to bring with you. (If you will be under 18 years old on your first day of class, your parent or guardian must complete and sign the forms for you.)</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="title-container">
+              <div class="title">
+                <h5>Make sure you have all the right documentation</h5>
+              </div><div class="icon-container">
+                <img src="/images/icons/icon_checklist.png" class="img-fluid">
+              </div>
+            </div>
+            <div class="description-container">
+              <div class="description">
+                <p>Your visa, passport, Form I-20, and other important documents must be in a safe and accessible location. Keep them together in a folder and be sure to make extra printed and digital copies just in case.</p>
+                <p>You should also download and complete the following Important Forms that you will need to bring with you. (If you will be under 18 years old on your first day of class, your parent or guardian must complete and sign the forms for you.)</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="title-container">
+              <div class="title">
+                <h5>Make sure you have all the right documentation</h5>
+              </div><div class="icon-container">
+                <img src="/images/icons/icon_checklist.png" class="img-fluid">
+              </div>
+            </div>
+            <div class="description-container">
+              <div class="description">
+                <p>Your visa, passport, Form I-20, and other important documents must be in a safe and accessible location. Keep them together in a folder and be sure to make extra printed and digital copies just in case.</p>
+                <p>You should also download and complete the following Important Forms that you will need to bring with you. (If you will be under 18 years old on your first day of class, your parent or guardian must complete and sign the forms for you.)</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="title-container">
+              <div class="title">
+                <h5>Make sure you have all the right documentation</h5>
+              </div><div class="icon-container">
+                <img src="/images/icons/icon_checklist.png" class="img-fluid">
+              </div>
+            </div>
+            <div class="description-container">
+              <div class="description">
+                <p>Your visa, passport, Form I-20, and other important documents must be in a safe and accessible location. Keep them together in a folder and be sure to make extra printed and digital copies just in case.</p>
+                <p>You should also download and complete the following Important Forms that you will need to bring with you. (If you will be under 18 years old on your first day of class, your parent or guardian must complete and sign the forms for you.)</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="target-diagonal-container" style="background-color: #009FDF;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 center">
+              <h2 class="bold" style="color: #FFF;">Check out our Arrival guides<br> for your chosen Center</h2>
+              <div class="dropdown-container">
+                <div class="dropup dropdown-orange">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   LOCATION
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-plane-path"><img src="/images/background/bg_plane_path.png" class="img-fluid"></div>
+    </section>
+
+    <section class="section-normal section-staircase padding-none">
+      <div class="container">
+        <div class="row row-title">
+          <div class="col-md-12">
+            <div style="padding:0 150px;">
+              <h2 class="left bold" style="color: #FF8B35;">
+                Arriving in the USA
+              </h2>
+              <div class="description">
+                <h5>All ELS centers offer an airport pick-up service upon arrival to the United States. If you would like to arrange this, please contact your ELS representative.
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h4 class="bold" style="color: #FF8B35;">Your First Day at ELS</h4>
+          </div>
+        </div>
+        <div class="row row-staircase">
+          <div class="col-md-7">
+            <div class="description">
+              <h5 class="bold">Center Registration</h5>
+              <p>On the first Monday, ELS Centers will be open only to newly arriving students. Centers will administer any placement tests that have not been administered pre-arrival, host an orientation session and register all new students.</p>
+              <p>If a holiday falls on the first Monday, ELS Centers will be open for newly arriving students checking in. Normal first Monday activities will take place on the following Tuesday.</p>
+            </div>
+          </div>
+          <div class="col-md-5 col-icon">
+            <div class="icon-container grey-container">
+              <img src="images/icons/icon_helpdesk.png" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="row row-staircase">
+          <div class="col-md-5 col-icon">
+            <div class="icon-container grey-container">
+              <img src="images/icons/icon_helpdesk.png" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="description">
+              <h5 class="bold right"><span style="color: #FF8B35;">Attend your orientation</span> session on your first day of classes</h5>
+              <p>On the first Monday, ELS Centers will be open only to newly arriving students. Centers will administer any placement tests that have not been administered pre-arrival, host an orientation session and register all new students.</p>
+              <p>If a holiday falls on the first Monday, ELS Centers will be open for newly arriving students checking in. Normal first Monday activities will take place on the following Tuesday.</p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="row row-staircase">
+          <div class="col-md-7">
+            <div class="description">
+              <h5 class="bold"><span style="color: #FF8B35;">What to Bring</span> with you on your first day</h5>
+              <p>On the first Monday, ELS Centers will be open only to newly arriving students. Centers will administer any placement tests that have not been administered pre-arrival, host an orientation session and register all new students.</p>
+              <p>If a holiday falls on the first Monday, ELS Centers will be open for newly arriving students checking in. Normal first Monday activities will take place on the following Tuesday.</p>
+            </div>
+          </div>
+          <div class="col-md-5 col-icon">
+            <div class="icon-container grey-container">
+              <img src="images/icons/icon_helpdesk.png" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-normal section-diagonal">
+      <div class="diagonal-box diagonal-up" style="background-color: #F3F3F4;">
+      </div>
+      <div class="container">
+        <div class="row row-title">
+          <div class="col-md-12">
+            <h2 class="bold" style="color: #FF8B35;">Learning English at ELS</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    
+    
+    <section class="section-footer-cta-form section-polygon section-form">
+     <div class="container">
+      <div class="row">
+        <div class="col-md-12 center">
+          <h2>REQUEST MORE INFORMATION <span class="bold">|</span> <span class="bold" style="color: #FF8B35;">CONNECT WITH AN ADVISOR</span></h2>
+        </div>
+      </div>
+      <div class="row form-container">
+        <div class="col-md-12">
+          <span id="hs_cos_wrapper_widget_1678927143294_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form" data-hs-cos-general-type="widget" data-hs-cos-type="form"><h3 id="hs_cos_wrapper_form_714433450_title" class="hs_cos_wrapper form-title" data-hs-cos-general-type="widget_field" data-hs-cos-type="text"></h3>
+
+            <div id="hs_form_target_form_714433450" data-hs-forms-root="true"><form id="hsForm_8ae473ec-edfc-4651-a3f9-40001853026b_3589" method="POST" accept-charset="UTF-8" enctype="multipart/form-data" novalidate="" action="https://forms.hsforms.com/submissions/v3/public/submit/formsnext/multipart/5020112/8ae473ec-edfc-4651-a3f9-40001853026b" class="hs-form-private hsForm_8ae473ec-edfc-4651-a3f9-40001853026b hs-form-8ae473ec-edfc-4651-a3f9-40001853026b hs-form-8ae473ec-edfc-4651-a3f9-40001853026b_f9682c46-4683-4c52-bb00-b9caf250b0f7 hs-form stacked hs-custom-form" target="target_iframe_8ae473ec-edfc-4651-a3f9-40001853026b_3589" data-instance-id="f9682c46-4683-4c52-bb00-b9caf250b0f7" data-form-id="8ae473ec-edfc-4651-a3f9-40001853026b" data-portal-id="5020112" data-test-id="hsForm_8ae473ec-edfc-4651-a3f9-40001853026b_3589"><div class="hs_firstname hs-firstname hs-fieldtype-text field hs-form-field"><label id="label-firstname-8ae473ec-edfc-4651-a3f9-40001853026b_3589" class="" placeholder="Enter your First name" for="firstname-8ae473ec-edfc-4651-a3f9-40001853026b_3589"><span>First name</span><span class="hs-form-required">*</span></label><legend class="hs-field-desc" style="display: none;"></legend><div class="input"><input id="firstname-8ae473ec-edfc-4651-a3f9-40001853026b_3589" name="firstname" required="" placeholder="" type="text" class="hs-input invalid error" inputmode="text" autocomplete="given-name" value=""></div><ul class="no-list hs-error-msgs inputs-list" role="alert"><li><label class="hs-error-msg hs-main-font-element">Please complete this required field.</label></li></ul></div><div class="hs_lastname hs-lastname hs-fieldtype-text field hs-form-field"><label id="label-lastname-8ae473ec-edfc-4651-a3f9-40001853026b_3589" class="" placeholder="Enter your Last name" for="lastname-8ae473ec-edfc-4651-a3f9-40001853026b_3589"><span>Last name</span><span class="hs-form-required">*</span></label><legend class="hs-field-desc" style="display: none;"></legend><div class="input"><input id="lastname-8ae473ec-edfc-4651-a3f9-40001853026b_3589" name="lastname" required="" placeholder="" type="text" class="hs-input" inputmode="text" autocomplete="family-name" value=""></div></div><div class="hs_email hs-email hs-fieldtype-text field hs-form-field"><label id="label-email-8ae473ec-edfc-4651-a3f9-40001853026b_3589" class="" placeholder="Enter your Email" for="email-8ae473ec-edfc-4651-a3f9-40001853026b_3589"><span>Email</span><span class="hs-form-required">*</span></label><legend class="hs-field-desc" style="display: none;"></legend><div class="input"><input id="email-8ae473ec-edfc-4651-a3f9-40001853026b_3589" name="email" required="" placeholder="" type="email" class="hs-input" inputmode="email" autocomplete="email" value=""></div></div><div class="hs_phone hs-phone hs-fieldtype-phonenumber field hs-form-field"><label id="label-phone-8ae473ec-edfc-4651-a3f9-40001853026b_3589" class="" placeholder="Enter your Phone number" for="phone-8ae473ec-edfc-4651-a3f9-40001853026b_3589"><span>Phone number</span><span class="hs-form-required">*</span></label><legend class="hs-field-desc" style="display: none;"></legend><div class="input"><input id="phone-8ae473ec-edfc-4651-a3f9-40001853026b_3589" name="phone" required="" placeholder="" type="tel" class="hs-input" inputmode="tel" autocomplete="tel" value=""></div></div><div class="hs_preferred_language_spoken__c hs-preferred_language_spoken__c hs-fieldtype-select field hs-form-field"><label id="label-preferred_language_spoken__c-8ae473ec-edfc-4651-a3f9-40001853026b_3589" class="" placeholder="Enter your Preferred language spoken" for="preferred_language_spoken__c-8ae473ec-edfc-4651-a3f9-40001853026b_3589"><span>Preferred language spoken</span><span class="hs-form-required">*</span></label><legend class="hs-field-desc" style="display: none;"></legend><div class="input"><select id="preferred_language_spoken__c-8ae473ec-edfc-4651-a3f9-40001853026b_3589" required="" class="hs-input is-placeholder" name="preferred_language_spoken__c"><option disabled="" value="" selected>Please Select</option><option value="Arabic">Arabic</option><option value="Chinese Simplified">Chinese Simplified</option><option value="Chinese Traditional">Chinese Traditional</option><option value="English">English</option><option value="French">French</option><option value="Japanese">Japanese</option><option value="Korean">Korean</option><option value="Portuguese">Portuguese</option><option value="Spanish">Spanish</option><option value="Thai">Thai</option><option value="Turkish">Turkish</option><option value="Vietnamese">Vietnamese</option><option value="Russian">Russian</option><option value="Other">Other</option></select></div></div><div class="hs_country_of_residence hs-country_of_residence hs-fieldtype-select field hs-form-field"><label id="label-country_of_residence-8ae473ec-edfc-4651-a3f9-40001853026b_3589" class="" placeholder="Enter your Country of residence" for="country_of_residence-8ae473ec-edfc-4651-a3f9-40001853026b_3589"><span>Country of residence</span><span class="hs-form-required">*</span></label><legend class="hs-field-desc" style="display: none;"></legend><div class="input"><select id="country_of_residence-8ae473ec-edfc-4651-a3f9-40001853026b_3589" required="" class="hs-input is-placeholder" name="country_of_residence"><option disabled="" value="" selected>Please Select</option><option value="Afghanistan">Afghanistan</option><option value="Åland Islands">Åland Islands</option><option value="Albania">Albania</option><option value="Algeria">Algeria</option><option value="Ashmore And Cartier Is">Ashmore And Cartier Is</option><option value="American Samoa">American Samoa</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Anguilla">Anguilla</option><option value="Antarctica">Antarctica</option><option value="Antigua and Barbuda">Antigua and Barbuda</option><option value="Baker Island">Baker Island</option><option value="Argentina">Argentina</option><option value="Armenia">Armenia</option><option value="Aruba">Aruba</option><option value="Bassas Da India">Bassas Da India</option><option value="Asia/Pacific Region">Asia/Pacific Region</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Azerbaijan">Azerbaijan</option><option value="Bahamas">Bahamas</option><option value="Bahrain">Bahrain</option><option value="Bangladesh">Bangladesh</option><option value="Barbados">Barbados</option><option value="Belarus">Belarus</option><option value="Belgium">Belgium</option><option value="Belize">Belize</option><option value="Benin">Benin</option><option value="British Indian Ocean Ter">British Indian Ocean Ter</option><option value="Bermuda">Bermuda</option><option value="Bhutan">Bhutan</option><option value="Bolivia">Bolivia</option><option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option><option value="Botswana">Botswana</option><option value="Bouvet Island">Bouvet Island</option><option value="Brazil">Brazil</option><option value="British Indian Ocean Territory">British Indian Ocean Territory</option><option value="British Virgin Islands">British Virgin Islands</option><option value="Brunei">Brunei</option><option value="Canal Zone">Canal Zone</option><option value="Bulgaria">Bulgaria</option><option value="Canton And Enderbury">Canton And Enderbury</option><option value="Burkina Faso">Burkina Faso</option><option value="Burundi">Burundi</option><option value="Cambodia">Cambodia</option><option value="Cameroon">Cameroon</option><option value="Central And S Line Isl">Central And S Line Isl</option><option value="Canada">Canada</option><option value="Cape Verde">Cape Verde</option><option value="Caribbean Netherlands">Caribbean Netherlands</option><option value="Cayman Islands">Cayman Islands</option><option value="Central African Republic">Central African Republic</option><option value="Clipperton Island">Clipperton Island</option><option value="Chad">Chad</option><option value="Chile">Chile</option><option value="China">China</option><option value="Christmas Island">Christmas Island</option><option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option><option value="Congo Democratic Republic Of">Congo Democratic Republic Of</option><option value="Colombia">Colombia</option><option value="Comoros">Comoros</option><option value="Coral Sea Islands">Coral Sea Islands</option><option value="Congo">Congo</option><option value="Cook Islands">Cook Islands</option><option value="Costa Rica">Costa Rica</option><option value="Cote d'Ivoire">Cote d'Ivoire</option><option value="Croatia">Croatia</option><option value="Curacao">Curacao</option><option value="Cuba">Cuba</option><option value="Curaçao">Curaçao</option><option value="Cyprus">Cyprus</option><option value="Czechoslovakia">Czechoslovakia</option><option value="Czechia">Czechia</option><option value="Dem Republic Of Viet-Nam">Dem Republic Of Viet-Nam</option><option value="Democratic Republic of the Congo">Democratic Republic of the Congo</option><option value="Denmark">Denmark</option><option value="Dhekelia">Dhekelia</option><option value="Djibouti">Djibouti</option><option value="Dominica">Dominica</option><option value="Dominican Republic">Dominican Republic</option><option value="East Timor">East Timor</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="El Salvador">El Salvador</option><option value="Equatorial Guinea">Equatorial Guinea</option><option value="Eritrea">Eritrea</option><option value="Estonia">Estonia</option><option value="Eswatini">Eswatini</option><option value="Etorofu Habomai Kunashiri and Shikotan Islands">Etorofu Habomai Kunashiri and Shikotan Islands</option><option value="Ethiopia">Ethiopia</option><option value="Europa Island">Europa Island</option><option value="Europe">Europe</option><option value="Falkland Isl (Malvinas)">Falkland Isl (Malvinas)</option><option value="Falkland Islands">Falkland Islands</option><option value="Faroe Islands">Faroe Islands</option><option value="Federal Republic Of Germany">Federal Republic Of Germany</option><option value="Fiji">Fiji</option><option value="Finland">Finland</option><option value="France">France</option><option value="French Afars And Issas">French Afars And Issas</option><option value="French Guiana">French Guiana</option><option value="French Polynesia">French Polynesia</option><option value="French Southern and Antarctic Lands">French Southern and Antarctic Lands</option><option value="French S And Ant Lands">French S And Ant Lands</option><option value="Gabon">Gabon</option><option value="Gambia">Gambia</option><option value="Georgia">Georgia</option><option value="Gaza Strip">Gaza Strip</option><option value="Germany">Germany</option><option value="Ghana">Ghana</option><option value="German Democratic Republic">German Democratic Republic</option><option value="Gibraltar">Gibraltar</option><option value="Greece">Greece</option><option value="Germany Berlin">Germany Berlin</option><option value="Greenland">Greenland</option><option value="Grenada">Grenada</option><option value="Guadeloupe">Guadeloupe</option><option value="Gilbert And Ellice Islands">Gilbert And Ellice Islands</option><option value="Guam">Guam</option><option value="Gilbert Islands">Gilbert Islands</option><option value="Guatemala">Guatemala</option><option value="Glorioso Islands">Glorioso Islands</option><option value="Guernsey">Guernsey</option><option value="Guinea">Guinea</option><option value="Guinea-Bissau">Guinea-Bissau</option><option value="Guyana">Guyana</option><option value="Haiti">Haiti</option><option value="Heard Island and McDonald Islands">Heard Island and McDonald Islands</option><option value="Honduras">Honduras</option><option value="Hong Kong">Hong Kong</option><option value="Hungary">Hungary</option><option value="Iceland">Iceland</option><option value="India">India</option><option value="Indonesia">Indonesia</option><option value="Heard Is &amp; Mcdonald Slands">Heard Is &amp; Mcdonald Slands</option><option value="Iran">Iran</option><option value="Iraq">Iraq</option><option value="Ireland">Ireland</option><option value="Howland Island">Howland Island</option><option value="Isle of Man">Isle of Man</option><option value="Israel">Israel</option><option value="Italy">Italy</option><option value="Jamaica">Jamaica</option><option value="Japan">Japan</option><option value="Jersey">Jersey</option><option value="Jordan">Jordan</option><option value="Iraq-Saudi Arabia Neut Zone">Iraq-Saudi Arabia Neut Zone</option><option value="Kazakhstan">Kazakhstan</option><option value="Kenya">Kenya</option><option value="Kiribati">Kiribati</option><option value="Kuwait">Kuwait</option><option value="Israel-Jordan Demil Zone">Israel-Jordan Demil Zone</option><option value="Kyrgyzstan">Kyrgyzstan</option><option value="Israel-Syria Demil Zone">Israel-Syria Demil Zone</option><option value="Laos">Laos</option><option value="Latvia">Latvia</option><option value="Lebanon">Lebanon</option><option value="Jan Mayen">Jan Mayen</option><option value="Lesotho">Lesotho</option><option value="Liberia">Liberia</option><option value="Jarvis Island">Jarvis Island</option><option value="Libya">Libya</option><option value="Liechtenstein">Liechtenstein</option><option value="Johnston Atoll">Johnston Atoll</option><option value="Lithuania">Lithuania</option><option value="Luxembourg">Luxembourg</option><option value="Juan De Nova Island">Juan De Nova Island</option><option value="Macau">Macau</option><option value="Macedonia (FYROM)">Macedonia (FYROM)</option><option value="Madagascar">Madagascar</option><option value="Kingman Reef">Kingman Reef</option><option value="Malawi">Malawi</option><option value="Malaysia">Malaysia</option><option value="Maldives">Maldives</option><option value="Mali">Mali</option><option value="Malta">Malta</option><option value="Marshall Islands">Marshall Islands</option><option value="Martinique">Martinique</option><option value="Mauritania">Mauritania</option><option value="Mauritius">Mauritius</option><option value="Mayotte">Mayotte</option><option value="Mexico">Mexico</option><option value="Micronesia">Micronesia</option><option value="Moldova">Moldova</option><option value="Monaco">Monaco</option><option value="Mongolia">Mongolia</option><option value="Macedonia">Macedonia</option><option value="Montenegro">Montenegro</option><option value="Montserrat">Montserrat</option><option value="Morocco">Morocco</option><option value="Mozambique">Mozambique</option><option value="Myanmar (Burma)">Myanmar (Burma)</option><option value="Namibia">Namibia</option><option value="Nauru">Nauru</option><option value="Nepal">Nepal</option><option value="Netherlands">Netherlands</option><option value="Netherlands Antilles">Netherlands Antilles</option><option value="New Caledonia">New Caledonia</option><option value="New Zealand">New Zealand</option><option value="Nicaragua">Nicaragua</option><option value="Micronesia Fed States Of">Micronesia Fed States Of</option><option value="Niger">Niger</option><option value="Midway Islands">Midway Islands</option><option value="Nigeria">Nigeria</option><option value="Niue">Niue</option><option value="Norfolk Island">Norfolk Island</option><option value="North Korea">North Korea</option><option value="Northern Mariana Islands">Northern Mariana Islands</option><option value="Norway">Norway</option><option value="Oman">Oman</option><option value="Pakistan">Pakistan</option><option value="Palau">Palau</option><option value="Palestine">Palestine</option><option value="Navassa Island">Navassa Island</option><option value="Panama">Panama</option><option value="Papua New Guinea">Papua New Guinea</option><option value="Paraguay">Paraguay</option><option value="Peru">Peru</option><option value="Neutral Zone">Neutral Zone</option><option value="Philippines">Philippines</option><option value="Pitcairn Islands">Pitcairn Islands</option><option value="Poland">Poland</option><option value="Portugal">Portugal</option><option value="Puerto Rico">Puerto Rico</option><option value="Qatar">Qatar</option><option value="Réunion">Réunion</option><option value="Romania">Romania</option><option value="Russia">Russia</option><option value="Rwanda">Rwanda</option><option value="Saint Barthélemy">Saint Barthélemy</option><option value="Saint Helena">Saint Helena</option><option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option><option value="Saint Lucia">Saint Lucia</option><option value="Palmyra Atoll">Palmyra Atoll</option><option value="Saint Martin">Saint Martin</option><option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option><option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option><option value="Paracel Islands">Paracel Islands</option><option value="Samoa">Samoa</option><option value="San Marino">San Marino</option><option value="Sao Tome and Principe">Sao Tome and Principe</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Senegal">Senegal</option><option value="Serbia">Serbia</option><option value="Seychelles">Seychelles</option><option value="Portuguese Timor">Portuguese Timor</option><option value="Sierra Leone">Sierra Leone</option><option value="Singapore">Singapore</option><option value="Sint Maarten">Sint Maarten</option><option value="Republic Of Viet-Nam">Republic Of Viet-Nam</option><option value="Slovakia">Slovakia</option><option value="Reunion">Reunion</option><option value="Slovenia">Slovenia</option><option value="Solomon Islands">Solomon Islands</option><option value="Somalia">Somalia</option><option value="South Africa">South Africa</option><option value="S Georgia &amp; S Sandwich">S Georgia &amp; S Sandwich</option><option value="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option><option value="S Vincent &amp; The Grenadines">S Vincent &amp; The Grenadines</option><option value="South Korea">South Korea</option><option value="Saint Barthelemy">Saint Barthelemy</option><option value="South Sudan">South Sudan</option><option value="Spain">Spain</option><option value="Sri Lanka">Sri Lanka</option><option value="Sudan">Sudan</option><option value="Suriname">Suriname</option><option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option><option value="Swaziland">Swaziland</option><option value="Sweden">Sweden</option><option value="Switzerland">Switzerland</option><option value="Syria">Syria</option><option value="Taiwan">Taiwan</option><option value="Tajikistan">Tajikistan</option><option value="Serbia And Montenegro">Serbia And Montenegro</option><option value="Tanzania">Tanzania</option><option value="Thailand">Thailand</option><option value="Togo">Togo</option><option value="Sikkim">Sikkim</option><option value="Tokelau">Tokelau</option><option value="Tonga">Tonga</option><option value="Trinidad and Tobago">Trinidad and Tobago</option><option value="Tunisia">Tunisia</option><option value="Turkey">Turkey</option><option value="Turkmenistan">Turkmenistan</option><option value="Turks and Caicos Islands">Turks and Caicos Islands</option><option value="Tuvalu">Tuvalu</option><option value="U.S. Virgin Islands">U.S. Virgin Islands</option><option value="Southern Rhodesia">Southern Rhodesia</option><option value="Uganda">Uganda</option><option value="Southern Ryukyu Islands">Southern Ryukyu Islands</option><option value="Ukraine">Ukraine</option><option value="United Arab Emirates">United Arab Emirates</option><option value="Spanish North Africa">Spanish North Africa</option><option value="United Kingdom">United Kingdom</option><option value="United States">United States</option><option value="Spratly Islands">Spratly Islands</option><option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option><option value="Uruguay">Uruguay</option><option value="Stateless">Stateless</option><option value="Uzbekistan">Uzbekistan</option><option value="Vanuatu">Vanuatu</option><option value="Vatican City">Vatican City</option><option value="Svalbard">Svalbard</option><option value="Venezuela">Venezuela</option><option value="Vietnam">Vietnam</option><option value="Swan Islands">Swan Islands</option><option value="Wallis and Futuna">Wallis and Futuna</option><option value="Western Sahara">Western Sahara</option><option value="Yemen">Yemen</option><option value="Zambia">Zambia</option><option value="Zimbabwe">Zimbabwe</option><option value="Timor-Leste">Timor-Leste</option><option value="Tromelin Island">Tromelin Island</option><option value="Trust Terr Of Pacific Isl">Trust Terr Of Pacific Isl</option><option value="US Misc Pacific Islands">US Misc Pacific Islands</option><option value="Virgin Islands">Virgin Islands</option><option value="Wake Atoll">Wake Atoll</option><option value="West Bank">West Bank</option><option value="Yeman (Sanaa)">Yeman (Sanaa)</option><option value="Yemen (Aden)">Yemen (Aden)</option><option value="Yugoslavia">Yugoslavia</option><option value="North Macedonia">North Macedonia</option></select></div></div><div class="hs_els_program_type hs-els_program_type hs-fieldtype-select field hs-form-field"><label id="label-els_program_type-8ae473ec-edfc-4651-a3f9-40001853026b_3589" class="" placeholder="Enter your Program Type" for="els_program_type-8ae473ec-edfc-4651-a3f9-40001853026b_3589"><span>Program Type</span><span class="hs-form-required">*</span></label><legend class="hs-field-desc" style="display: none;"></legend><div class="input"><select id="els_program_type-8ae473ec-edfc-4651-a3f9-40001853026b_3589" required="" class="hs-input is-placeholder" name="els_program_type"><option disabled="" value="" selected>Please Select</option><option value="Intensive English">Intensive English</option><option value="Semi-Intensive English">Semi-Intensive English</option><option value="Online English">Online English</option><option value="Vacation English">Vacation English</option><option value="University Programs">University Programs</option></select></div></div><div class="hs_els_campus hs-els_campus hs-fieldtype-select field hs-form-field"><label id="label-els_campus-8ae473ec-edfc-4651-a3f9-40001853026b_3589" class="" placeholder="Enter your ELS Campus" for="els_campus-8ae473ec-edfc-4651-a3f9-40001853026b_3589"><span>ELS Campus</span></label><legend class="hs-field-desc" style="display: none;"></legend><div class="input"><select id="els_campus-8ae473ec-edfc-4651-a3f9-40001853026b_3589" class="hs-input is-placeholder" name="els_campus"><option disabled="" value="" selected>Please Select</option><option value="Chicago">Chicago, IL</option><option value="Cincinnati">Cincinnati, OH</option><option value="Cleveland">Cleveland, OH</option><option value="Houston">Houston, TX</option><option value="La Verne">La Verne, CA</option><option value="Melbourne">Melbourne, FL</option><option value="Nashville">Nashville, TN</option><option value="New York">New York, NY (Manhattan)</option><option value="Philadelphia">Philadelphia, PA</option><option value="San Raphael">San Raphael, CA</option><option value="St. Paul">St. Paul, MN</option><option value="St. Petersburg">St. Petersburg, FL</option><option value="Tampa">Tampa, FL</option></select></div></div><div class="hs_newsletter hs-newsletter hs-fieldtype-booleancheckbox field hs-form-field"><legend class="hs-field-desc" style="display: none;"></legend><div class="input"><ul class="inputs-list"><li class="hs-form-booleancheckbox"><label for="newsletter-8ae473ec-edfc-4651-a3f9-40001853026b_3589" class="hs-form-booleancheckbox-display"><input id="newsletter-8ae473ec-edfc-4651-a3f9-40001853026b_3589" class="hs-input" type="checkbox" name="newsletter" value="true" checked=""><span>Yes, I would like to be contacted about special events, newsletters and program information.</span></label></li></ul></div></div><div class="legal-consent-container"><div><div class="hs-dependent-field"><div class="hs_LEGAL_CONSENT.subscription_type_5425795 hs-LEGAL_CONSENT.subscription_type_5425795 hs-fieldtype-booleancheckbox field hs-form-field"><legend class="hs-field-desc" style="display: none;"></legend><div class="input"><ul class="inputs-list"><li class="hs-form-booleancheckbox"><label for="LEGAL_CONSENT.subscription_type_5425795-8ae473ec-edfc-4651-a3f9-40001853026b_3589" class="hs-form-booleancheckbox-display"><input id="LEGAL_CONSENT.subscription_type_5425795-8ae473ec-edfc-4651-a3f9-40001853026b_3589" class="hs-input" type="checkbox" name="LEGAL_CONSENT.subscription_type_5425795" value="true"><span><p>I have read the <a href="https://www.els.edu/terms-of-use" target="_blank" rel="noopener">Terms of Use</a> and <a href="https://www.els.edu/provicy-policy" target="_blank" rel="noopener">Privacy Policy</a>.</p></span></label></li></ul></div></div></div><legend class="hs-field-desc checkbox-desc" style="display: none;"></legend></div></div><div class="hs_submit hs-submit"><div class="hs-field-desc" style="display: none;"></div><div class="actions"><input type="submit" class="hs-button primary large" value="Submit"></div></div><input name="hs_context" type="hidden" value="{&quot;embedAtTimestamp&quot;:&quot;1705948242256&quot;,&quot;formDefinitionUpdatedAt&quot;:&quot;1701376767878&quot;,&quot;lang&quot;:&quot;en&quot;,&quot;legalConsentOptions&quot;:&quot;{\&quot;legitimateInterestSubscriptionTypes\&quot;:[10699432],\&quot;communicationConsentCheckboxes\&quot;:[{\&quot;communicationTypeId\&quot;:5425795,\&quot;label\&quot;:\&quot;<p>I have read the <a href=\\\&quot;https://www.els.edu/terms-of-use\\\&quot; target=\\\&quot;_blank\\\&quot; rel=\\\&quot;noopener\\\&quot;>Terms of Use</a> and <a href=\\\&quot;https://www.els.edu/provicy-policy\\\&quot; target=\\\&quot;_blank\\\&quot; rel=\\\&quot;noopener\\\&quot;>Privacy Policy</a>.</p>\&quot;,\&quot;required\&quot;:false}],\&quot;legitimateInterestLegalBasis\&quot;:\&quot;LEGITIMATE_INTEREST_OTHER\&quot;,\&quot;processingConsentType\&quot;:\&quot;IMPLICIT\&quot;,\&quot;processingConsentCheckboxLabel\&quot;:\&quot;I agree to allow ILSC Education Group to store and process my personal data.\&quot;,\&quot;isLegitimateInterest\&quot;:false}&quot;,&quot;embedType&quot;:&quot;REGULAR&quot;,&quot;clonedFromForm&quot;:&quot;eb2b27fa-7deb-4cf9-b502-927fa8d6818b&quot;,&quot;userAgent&quot;:&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&quot;,&quot;pageTitle&quot;:&quot;English Courses | Study English with ELS | ELS&quot;,&quot;pageUrl&quot;:&quot;https://www.els.edu/&quot;,&quot;pageId&quot;:&quot;105458834584&quot;,&quot;isHubSpotCmsGeneratedPage&quot;:true,&quot;canonicalUrl&quot;:&quot;https://www.els.edu&quot;,&quot;contentType&quot;:&quot;standard-page&quot;,&quot;hutk&quot;:&quot;dd9bb59ee93703936f41c4d068ff0c21&quot;,&quot;__hsfp&quot;:2365361157,&quot;__hssc&quot;:&quot;131988560.1.1705948243313&quot;,&quot;__hstc&quot;:&quot;131988560.dd9bb59ee93703936f41c4d068ff0c21.1705364559527.1705945892895.1705948243313.10&quot;,&quot;formTarget&quot;:&quot;#hs_form_target_form_714433450&quot;,&quot;formInstanceId&quot;:&quot;3589&quot;,&quot;pageName&quot;:&quot;English Courses | Study English with ELS | ELS&quot;,&quot;boolCheckBoxFields&quot;:&quot;newsletter,LEGAL_CONSENT.subscription_type_5425795&quot;,&quot;rumScriptExecuteTime&quot;:480.19999998807907,&quot;rumTotalRequestTime&quot;:831.8999999761581,&quot;rumTotalRenderTime&quot;:855.0999999642372,&quot;rumServiceResponseTime&quot;:351.69999998807907,&quot;rumFormRenderTime&quot;:23.19999998807907,&quot;connectionType&quot;:&quot;4g&quot;,&quot;firstContentfulPaint&quot;:0,&quot;largestContentfulPaint&quot;:0,&quot;locale&quot;:&quot;en&quot;,&quot;timestamp&quot;:1705948250914,&quot;originalEmbedContext&quot;:{&quot;portalId&quot;:&quot;5020112&quot;,&quot;formId&quot;:&quot;8ae473ec-edfc-4651-a3f9-40001853026b&quot;,&quot;region&quot;:&quot;na1&quot;,&quot;target&quot;:&quot;#hs_form_target_form_714433450&quot;,&quot;isBuilder&quot;:false,&quot;isTestPage&quot;:false,&quot;isPreview&quot;:false,&quot;formInstanceId&quot;:&quot;3589&quot;,&quot;formsBaseUrl&quot;:&quot;/_hcms/forms&quot;,&quot;css&quot;:&quot;&quot;,&quot;redirectUrl&quot;:&quot;https://www.els.edu/thank-you-submission&quot;,&quot;isMobileResponsive&quot;:true,&quot;pageName&quot;:&quot;English Courses | Study English with ELS | ELS&quot;,&quot;pageId&quot;:&quot;105458834584&quot;,&quot;contentType&quot;:&quot;standard-page&quot;,&quot;formData&quot;:{&quot;cssClass&quot;:&quot;hs-form stacked hs-custom-form&quot;},&quot;isCMSModuleEmbed&quot;:true},&quot;correlationId&quot;:&quot;f9682c46-4683-4c52-bb00-b9caf250b0f7&quot;,&quot;renderedFieldsIds&quot;:[&quot;firstname&quot;,&quot;lastname&quot;,&quot;email&quot;,&quot;phone&quot;,&quot;preferred_language_spoken__c&quot;,&quot;country_of_residence&quot;,&quot;els_program_type&quot;,&quot;els_campus&quot;,&quot;newsletter&quot;,&quot;LEGAL_CONSENT.subscription_type_5425795&quot;],&quot;captchaStatus&quot;:&quot;NOT_APPLICABLE&quot;,&quot;emailResubscribeStatus&quot;:&quot;NOT_APPLICABLE&quot;,&quot;isInsideCrossOriginFrame&quot;:false,&quot;source&quot;:&quot;forms-embed-1.4544&quot;,&quot;sourceName&quot;:&quot;forms-embed&quot;,&quot;sourceVersion&quot;:&quot;1.4544&quot;,&quot;sourceVersionMajor&quot;:&quot;1&quot;,&quot;sourceVersionMinor&quot;:&quot;4544&quot;,&quot;allPageIds&quot;:{&quot;embedContextPageId&quot;:&quot;105458834584&quot;,&quot;analyticsPageId&quot;:&quot;105458834584&quot;,&quot;contentPageId&quot;:105458834584,&quot;contentAnalyticsPageId&quot;:&quot;105458834584&quot;},&quot;_debug_embedLogLines&quot;:[{&quot;clientTimestamp&quot;:1705948242269,&quot;level&quot;:&quot;INFO&quot;,&quot;message&quot;:&quot;Retrieved customer callbacks used on embed context: [\&quot;getExtraMetaDataBeforeSubmit\&quot;]&quot;},{&quot;clientTimestamp&quot;:1705948242269,&quot;level&quot;:&quot;INFO&quot;,&quot;message&quot;:&quot;Retrieved pageContext values which may be overriden by the embed context: {\&quot;pageTitle\&quot;:\&quot;English Courses | Study English with ELS | ELS\&quot;,\&quot;pageUrl\&quot;:\&quot;https://www.els.edu/\&quot;,\&quot;userAgent\&quot;:\&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\&quot;,\&quot;pageId\&quot;:\&quot;105458834584\&quot;,\&quot;contentAnalyticsPageId\&quot;:\&quot;105458834584\&quot;,\&quot;contentPageId\&quot;:105458834584,\&quot;isHubSpotCmsGeneratedPage\&quot;:true}&quot;},{&quot;clientTimestamp&quot;:1705948242271,&quot;level&quot;:&quot;INFO&quot;,&quot;message&quot;:&quot;Retrieved countryCode property from normalized embed definition response: \&quot;CA\&quot;&quot;},{&quot;clientTimestamp&quot;:1705948243318,&quot;level&quot;:&quot;INFO&quot;,&quot;message&quot;:&quot;Retrieved analytics values from API response which may be overriden by the embed context: {\&quot;hutk\&quot;:\&quot;dd9bb59ee93703936f41c4d068ff0c21\&quot;,\&quot;canonicalUrl\&quot;:\&quot;https://www.els.edu\&quot;,\&quot;contentType\&quot;:\&quot;standard-page\&quot;,\&quot;pageId\&quot;:\&quot;105458834584\&quot;}&quot;}]}"><iframe name="target_iframe_8ae473ec-edfc-4651-a3f9-40001853026b_3589" style="display: none;"></iframe></form></div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </span>
+        </div>
+      </div>
+     </div> 
+    </section>
+    <section class="section-footer">
+      <div class="polygon-overlay">
+        <div class="polygon-orange-overlay">
+          
+        </div>
+        <div class="polygon-blue-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 left-container">
+            <div class="logo-container">
+              <img src="/images/logos/ELS_Horizontal_Logo_White 1.png" width="141px" class="img-fluid">
+            </div>
+            <h3>
+              Our focus is on your success and we can guide you there.
+            </h3>
+            <div class="social-media-container">
+              <ul>
+                <li>
+                 <a href=""><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z"/></svg></a>
+                </li>
+                <li>
+                <a href=""><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-193.446,81c-47.527,0 -53.487,0.201 -72.152,1.053c-18.627,0.85 -31.348,3.808 -42.48,8.135c-11.508,4.472 -21.267,10.456 -30.996,20.184c-9.729,9.729 -15.713,19.489 -20.185,30.996c-4.326,11.132 -7.284,23.853 -8.135,42.48c-0.851,18.665 -1.052,24.625 -1.052,72.152c0,47.527 0.201,53.487 1.052,72.152c0.851,18.627 3.809,31.348 8.135,42.48c4.472,11.507 10.456,21.267 20.185,30.996c9.729,9.729 19.488,15.713 30.996,20.185c11.132,4.326 23.853,7.284 42.48,8.134c18.665,0.852 24.625,1.053 72.152,1.053c47.527,0 53.487,-0.201 72.152,-1.053c18.627,-0.85 31.348,-3.808 42.48,-8.134c11.507,-4.472 21.267,-10.456 30.996,-20.185c9.729,-9.729 15.713,-19.489 20.185,-30.996c4.326,-11.132 7.284,-23.853 8.134,-42.48c0.852,-18.665 1.053,-24.625 1.053,-72.152c0,-47.527 -0.201,-53.487 -1.053,-72.152c-0.85,-18.627 -3.808,-31.348 -8.134,-42.48c-4.472,-11.507 -10.456,-21.267 -20.185,-30.996c-9.729,-9.728 -19.489,-15.712 -30.996,-20.184c-11.132,-4.327 -23.853,-7.285 -42.48,-8.135c-18.665,-0.852 -24.625,-1.053 -72.152,-1.053Zm0,31.532c46.727,0 52.262,0.178 70.715,1.02c17.062,0.779 26.328,3.63 32.495,6.025c8.169,3.175 13.998,6.968 20.122,13.091c6.124,6.124 9.916,11.954 13.091,20.122c2.396,6.167 5.247,15.433 6.025,32.495c0.842,18.453 1.021,23.988 1.021,70.715c0,46.727 -0.179,52.262 -1.021,70.715c-0.778,17.062 -3.629,26.328 -6.025,32.495c-3.175,8.169 -6.967,13.998 -13.091,20.122c-6.124,6.124 -11.953,9.916 -20.122,13.091c-6.167,2.396 -15.433,5.247 -32.495,6.025c-18.45,0.842 -23.985,1.021 -70.715,1.021c-46.73,0 -52.264,-0.179 -70.715,-1.021c-17.062,-0.778 -26.328,-3.629 -32.495,-6.025c-8.169,-3.175 -13.998,-6.967 -20.122,-13.091c-6.124,-6.124 -9.917,-11.953 -13.091,-20.122c-2.396,-6.167 -5.247,-15.433 -6.026,-32.495c-0.842,-18.453 -1.02,-23.988 -1.02,-70.715c0,-46.727 0.178,-52.262 1.02,-70.715c0.779,-17.062 3.63,-26.328 6.026,-32.495c3.174,-8.168 6.967,-13.998 13.091,-20.122c6.124,-6.123 11.953,-9.916 20.122,-13.091c6.167,-2.395 15.433,-5.246 32.495,-6.025c18.453,-0.842 23.988,-1.02 70.715,-1.02Zm0,53.603c-49.631,0 -89.865,40.234 -89.865,89.865c0,49.631 40.234,89.865 89.865,89.865c49.631,0 89.865,-40.234 89.865,-89.865c0,-49.631 -40.234,-89.865 -89.865,-89.865Zm0,148.198c-32.217,0 -58.333,-26.116 -58.333,-58.333c0,-32.217 26.116,-58.333 58.333,-58.333c32.217,0 58.333,26.116 58.333,58.333c0,32.217 -26.116,58.333 -58.333,58.333Zm114.416,-151.748c0,11.598 -9.403,20.999 -21.001,20.999c-11.597,0 -20.999,-9.401 -20.999,-20.999c0,-11.598 9.402,-21 20.999,-21c11.598,0 21.001,9.402 21.001,21Z"/></svg></a>
+                </li>
+                
+                <li>
+                  <a href=""><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z"/></svg></a>
+                    
+                </li>
+                <li>
+                  <a href=""><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-20.967,175.63c-4.139,-15.489 -16.337,-27.687 -31.826,-31.826c-28.078,-7.524 -140.653,-7.524 -140.653,-7.524c0,0 -112.575,0 -140.653,7.524c-15.486,4.139 -27.686,16.337 -31.826,31.826c-7.521,28.075 -7.521,86.652 -7.521,86.652c0,0 0,58.576 7.521,86.648c4.14,15.489 16.34,27.69 31.826,31.829c28.078,7.521 140.653,7.521 140.653,7.521c0,0 112.575,0 140.653,-7.521c15.489,-4.139 27.687,-16.34 31.826,-31.829c7.521,-28.072 7.521,-86.648 7.521,-86.648c0,0 0,-58.577 -7.521,-86.652Zm-208.481,140.653l0,-108.002l93.53,54.001l-93.53,54.001Z"/></svg></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-9 right-container">
+            <div class="row">
+              <div class="col">
+                <h4>PROGRAMS</h4>
+                <ul>
+                  <li><a href="">English Programs</a></li>
+                  <li><a href="">Testing</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <h4>ADMISSIONS</h4>
+                <ul>
+                  <li><a href="">Tuition & Fees</a></li>
+                  <li><a href="">Visa Information</a></li>
+                  <li><a href="">Frequently Asked Questions</a></li>
+                  <li><a href="">Brochures</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <h4>ABOUT ELS</h4>
+                <ul>
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">The ELS Methodology</a></li>
+                  <li><a href="">Careers</a></li>
+                  <li><a href="">News</a></li>
+                  <li><a href="">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <h4>OUR NETWORK</h4>
+                <ul>
+                  <li><a href="">University Guide Online</a></li>
+                  <li><a href="">International Student</a></li>
+                  <li><a href="">Recruitment</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row sub-footer">
+              <div class="col-md-12 border-top">
+                <ul>
+                  <li><a href="">Accreditation</a</li>
+                  <li><a href="">Privacy Policy</a</li>
+                  <li><a href="">Terms of Use</a></li>
+                </ul>
+                <ul class="footer-copyright">
+                  <li>&copy; Copyright 2024 ELS Educational Services, Inc., a Berlitz company</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+     <!-- end body scripts-->
+     <script src="https://www.ilsc.com/hs-fs/hub/5020112/hub_generated/template_assets/31199499370/1592940629359/ILSC_Website/template-resources/javascript/external/slick/slick-min.min.js"></script>
+        
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+     
+     
+     <!-- cdnjs -->
+     <script defer type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+     <script defer type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+     
+     
+       <script src="//cdn2.hubspot.net/hub/5020112/hub_generated/template_assets/152734381704/1704994876309/ELS_Website_2/template-resources/javascript/internal/video-modal.min.js
+       "></script>
+       <script src="/javascript/main_function.js" type="text/javascript"></script>
+       
+        <script src="/javascript/top_navigation.js" type="text/javascript"></script>
+  </body>
+</html>
